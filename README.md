@@ -2,6 +2,7 @@
 
 Deploys [mlflow](https://mlflow.org/) tracking server using [NixOps](https://nixos.org/nixops/) on AWS EC2.
 
+## Instructions
 First, add secrets/basicauth.nix:
 ```
 { "user" = "password"; }
