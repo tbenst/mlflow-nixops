@@ -1,4 +1,6 @@
-# Create server running mlflow under nginx
+# mlflow-nixops
+
+Deploys [mlflow](https://mlflow.org/) tracking server using [NixOps](https://nixos.org/nixops/) on AWS EC2.
 
 First, add secrets/basicauth.nix:
 ```
