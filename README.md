@@ -24,7 +24,7 @@ aws_secret_access_key = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Finally make `secrets/server_config.nix` (for Amazon Aurora mysql):
 ```
 {
-  store_uri = "mysql://admin:@mlflow-instance-1.xxxxx.us-west-2.rds.amazonaws.com:3306/mlflow";
+  store_uri = "mysql://admin:password@mlflow-instance-1.xxxxx.us-west-2.rds.amazonaws.com:3306/mlflow";
   artifact_root = "s3://xxxxxxxx/mlflow-artifacts/";
   hostname = "mlflow.xxxxx.com";
 }
