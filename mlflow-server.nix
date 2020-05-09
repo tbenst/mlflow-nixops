@@ -48,6 +48,11 @@
       };
     };
 
+    security.acme = {
+      email = "mlflow@tylerbenster.com";
+      acceptTerms = true;
+    };
+
     systemd.services.mlflowServer = {
       wantedBy = [ "multi-user.target" ];
       after = [ "network.target" ];
